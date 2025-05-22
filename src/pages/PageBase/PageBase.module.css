@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(360deg, #008296 0%, #180032 100%);
+}
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.backgroundImage {
+    background-image: url(../../assets/img/fundoLume.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Melhor que 100% 100%, evita distorção */
+    width: 100%;
+}
