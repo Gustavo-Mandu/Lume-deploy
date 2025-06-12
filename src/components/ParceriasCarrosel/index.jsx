@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
 import styles from './ParceriasCarrosel.module.css';
-import aguaNaCaixa from '../../assets/img/aguaNaCaixa.png';
-import vagalumeSpriteLuminoso from '../../assets/img/vagalumeSpriteLuminoso.png';
 import vagalumeLaranja from '../../assets/img/vagalumeLaranja.png'
 import globoLaranja from '../../assets/img/globoLaranja.png'
 import reciclagemLaranja from '../../assets/img/reciclagemLaranja.png'
 import setaEsquerda from '../../assets/icons/setaEsquerda.svg';
 import setaDireita from '../../assets/icons/setaDireita.svg';
-import logoLumeNova from '../../assets/img/logoLumeNova.svg'
+import logoPontoNorteTransparente from '../../assets/img/logoPontoNorteTransparente.png'
+import montanha from '../../assets/img/montanha.png'
+import arvore from '../../assets/img/arvore.png'
+import trilha from '../../assets/img/trilha.png'
+
 
 function ParceriasCarrosel() {
   return (
@@ -25,19 +27,20 @@ function ParceriasCarrosel() {
         <div className={styles.parceriasCarrosel}>
           <div className={styles.parceriasCarroselComTexto}>
             <div className={styles.parceriasCarroselEsquerda}>
-                <img src={logoLumeNova} alt="Logo da parceira Água na Caixa" />
+                <img src={logoPontoNorteTransparente} alt="Logo da Lume" />
             </div>
             <div className={styles.containerParceiroMobile}>
               <h3 className={styles.parceiroTitulo}>
                 Conheça mais
                 <br />
-                sobre a Lume!
+                sobre a 
+                <br />Ponto Norte!
               </h3>
               <div className={styles.parceriasCarroselDireita}>
                 <div className={styles.parceriasCarroselDireitaImagens}>
-                  <img src={vagalumeLaranja} alt="Produto Água 1" />
-                  <img src={globoLaranja} alt="Produto Água 2" />
-                  <img src={reciclagemLaranja} alt="Produto Água 3" />
+                  <img src={montanha} alt="Imagem de uma montanha" />
+                  <img src={arvore} alt="Imagem de uma árvore" />
+                  <img src={trilha} alt="Imagem de uma trilha" />
                 </div>
                 <Link to="#" className={styles.botaoSaibaMais}>
                   Saiba mais

@@ -1,13 +1,7 @@
-/* Arquivo: ProdutosItemsCompletos2.module.css (VERSÃO FINAL COMBINADA) */
-
-/* As variáveis de cor devem estar no seu arquivo global (ex: index.css)
-   para funcionar corretamente em toda a aplicação. */
-
 .card {
   background: var(--card-bg);
   border-radius: 12px;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   color: var(--text-primary);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -16,13 +10,34 @@
   transition: transform 0.2s ease-in-out;
 }
 
+.addToCartButton {
+  background-color: var(--accent-green, #32d194);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.addToCartButton:hover {
+  opacity: 0.9;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
 .card:hover {
   transform: translateY(-5px);
 }
 
 .imageContainer {
   width: 100%;
-  /* ALTURA FIXA: A imagem sempre terá 200px de altura, evitando escalar. */
   height: 200px;
   flex-shrink: 0;
   background-color: var(--image-placeholder-bg);
@@ -31,7 +46,6 @@
 .productImage {
   width: 100%;
   height: 100%;
-  /* OBJECT-FIT: Garante que a imagem cubra a área sem distorcer. */
   object-fit: cover;
 }
 
@@ -64,7 +78,6 @@
   font-weight: 600;
   margin: 0;
   line-height: 1.4;
-  /* Dando um espaço mínimo para o nome não empurrar o resto do conteúdo */
   min-height: 3.2rem;
 }
 
@@ -106,9 +119,6 @@
 }
 
 .priceInfo {
-  /* A ausência de 'margin-top: auto' aqui é INTENCIONAL.
-     Isso garante que este bloco de preço se alinhe no topo,
-     logo após o conteúdo acima dele. */
   padding-top: 0.75rem; 
 }
 
