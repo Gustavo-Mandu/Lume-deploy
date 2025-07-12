@@ -1,5 +1,3 @@
-Github: https://github.com/orgs/Lumelluz/repositories
-
 <div align="center">
   <h1>📁 Front-end da Lume</h1>
 </div>
@@ -8,7 +6,7 @@ Github: https://github.com/orgs/Lumelluz/repositories
 
 ## 📖 Descrição
 
-**Lume Front-end** é o repositório contendo a interface web do marketplace sustentável Lume, onde usuários podem navegar e comprar produtos ecológicos.  
+**LumeFrontEnd** é o repositório contendo a interface web do marketplace sustentável Lume, onde usuários podem navegar e comprar produtos ecológicos.  
 Prototipação construida com Figma e o sistema com React, Vite e CSS Modules, além de um toque de Tailwind CSS para estilização rápida e responsiva.
 
 ---
@@ -39,113 +37,6 @@ Prototipação construida com Figma e o sistema com React, Vite e CSS Modules, a
 5. Garanta que o Java e o Node.js estejam rodando também.
 
 OBS: Front-end disponível na aba "Sobre" do repositório, porém, sem Back-end.
-
----
-
-## 👨‍💻 Autores
-
-- Gustavo Mandu Ferreira Matori
-- Guilherme Marcílio
-- Lucas Liuti
-- Lorena Rosa
-- Nicolas Euflauzino
-- Murilo Macedo
-- Yuri Tito
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins de treinamento, aprendizado e como projeto DemoDay para o 1° Semestre de 2025 do curso PROPROFISSÃO do Instituto PROA.
-
-<div align="center">
-  <h1>📁 Chatbot da Lume</h1>
-</div>
-
----
-
-## 📖 Descrição
-
-**Aurora** é a nossa inteligência artificial, que auxilia a Lume, desenvolvida em Node.js.  
-Ela processa dados, recomenda produtos e interage com o Front-end em React via API REST para melhorar a experiência do usuário.
-
----
-
-## 🚀 Funcionalidades principais
-
-- Processamento inteligente e recomendações de produtos sustentáveis  
-- Comunicação via API REST com o Front-end react  
-- Análise de dados para melhorar as vendas e o engajamento  
-- Sistema extensível para futuras integrações com machine learning
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![REST API](https://img.shields.io/badge/REST_API-008080?style=for-the-badge)
-
----
-
-## 🌐 Como executar
-
-1. Clone o repositório  
-2. Instale as dependências com `npm install`  
-3. Configure a URL da API Key do Gemini no arquivo server.js para comunicação via API REST
-4. Execute o servidor com `node server.js`
-
----
-
-## 👨‍💻 Autores
-
-- Gustavo Mandu Ferreira Matori
-- Guilherme Marcílio
-- Lucas Liuti
-- Lorena Rosa
-- Nicolas Euflauzino
-- Murilo Macedo
-- Yuri Tito
-
----
-
-## 📄 Licença
-Este projeto foi desenvolvido para fins de treinamento, aprendizado e como projeto DemoDay para o 1° Semestre de 2025 do curso PROPROFISSÃO do Instituto PROA.
-
-<div align="center">
-  <h1>📁 Back-end da Lume</h1>
-</div>
-
----
-
-## 📖 Descrição
-
-**Lume Back-end** é a API REST responsável pela lógica do marketplace sustentável Lume, que conecta compradores a empresas que vendem produtos ecológicos.  
-Desenvolvido em Java com Spring Framework, o back-end gerencia autenticação segura com JWT, encriptação de dados e persistência em MySQL.
-
----
-
-## 🚀 Funcionalidades principais
-
-- API REST para gerenciamento de usuários, produtos e pedidos  
-- Autenticação via JWT e criptografia de dados sensíveis  
-- Integração com banco MySQL para armazenamento persistente  
-- Segurança e controle de acesso para o marketplace sustentável
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens)
-
----
-
-## 🌐 Como executar
-
-1. Clone o repositório  
-2. Configure o banco MySQL e atualize o arquivo `application.properties` com suas credenciais  
-3. Execute o projeto com `./mvnw spring-boot:run`  
-4. A API estará disponível em `http://localhost:8080`
 
 ---
 
