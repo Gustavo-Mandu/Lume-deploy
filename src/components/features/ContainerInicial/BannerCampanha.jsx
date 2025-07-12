@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import styles from './ContainerInicial.module.css';
 
-import carrosselAmbiente1 from '../../../assets/img/carrosselAmbiente1.png';
-import carrosselAmbiente2 from '../../../assets/img/carrosselAmbiente2.png';
-import carrosselAmbiente3 from '../../../assets/img/carrosselAmbiente3.png';
-import carrosselAmbiente4 from '../../../assets/img/carrosselAmbiente4.png';
+import carrosselAmbiente1 from '../../../assets/img/CarrosselAmbiente1.png';
+import carrosselAmbiente2 from '../../../assets/img/CarrosselAmbiente2.png';
+import carrosselAmbiente3 from '../../../assets/img/CarrosselAmbiente3.png';
+import carrosselAmbiente4 from '../../../assets/img/CarrosselAmbiente4.png';
 
 const imagens = [
   carrosselAmbiente1,
